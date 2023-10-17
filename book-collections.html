@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .book {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            text-align: center;
+        }
+
+        img {
+            height: 200px;
+            width: 150px;
+        }
+
+        body {
+            background-color: #142140;
+            color: white;
+            padding: 20px 20px;
+        }
+
+        h1 {
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html"><i class="fa-solid fa-arrow-left"></i> Back</a>
+    <h1 class="">Book Collections</h1>
+    <div class="container mt-5 book-collections">
+        <div class="row" id="bookContainer">
+            <!-- Books will be dynamically added here using JavaScript -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Library</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#home">TC Library</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#information">Informations</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#collections">Collections</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#registrations">Register</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="container-fluid section-page" id="home">
+        <div class="row">
+            <div class="col-md-6 left-side d-flex justify-content-center flex-column">
+                <h1 id="title">TC Library</h1>
+                <p>Explore a world of knowledge and literary treasures at our library's online hub. From an extensive collection of books to engaging events and resources, we're your window to lifelong learning and discovery.</p>
+                <a href="book-collections.html" class="btn btn-primary">Book Collections</a>
+            </div>
+            <div class="col-md-6 right-side">
+                <img src="img/book-pict.png" alt="book">
+            </div>
+        </div>
+    </div>
+
+    <!-- Information and Activity -->
+    <div class="container-fluid section-page" id="information">
+        <div class="row">
+            <div class="col-md-6 left-side d-flex justify-content-center flex-column">
+                <h1 id="title">Information and Activity</h1>
+                <p>Welcome to our library's online platform, your gateway to a world of knowledge. Our extensive collection includes books, periodicals, e-books, and digital resources, making it an ideal resource for students, scholars, and avid readers. In addition to our vast collection, we offer a range of engaging activities and events, such as book clubs, author talks, workshops, and reading challenges. Engage in thoughtful discussions, and connect with fellow book enthusiasts. Join us to discover, learn, and share the joy of reading.</p>
+            </div>
+            <div class="col-md-6 right-side">
+                <img src="img/pict2.png" alt="people-pict">
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular book collections -->
+    <div class="container-fluid section-page" id="collections">
+        <div class="container-fluid text-center book-collections-title">
+            <h1 id="title">Book Collections</h1>
+        </div>
+        <div class="row justify-content-center book-collections-item">
+            <div class="col-md-3 mx-3 book">
+                <img src="./img/book1.jpg" alt="Atomic Habits">
+                <h3>Atomic Habits</h3>
+                <p>Author: Author 1</p>
+            </div>
+            <div class="col-md-3 mx-3 book">
+                <img src="./img/book2.jpg" alt="A Brief History of Time">
+                <h3>A Brief History of Time</h3>
+                <p>Author: Author 1</p>
+            </div>
+            <div class="col-md-3 mx-3 book">
+                <img src="./img/book4.jpg" alt="The Davincy Code">
+                <h3>The Davincy Code</h3>
+                <p>Author: Author 1</p>
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-end show-more-button">
+            <a href="book-collections.html" class="btn btn-primary">Show more</a>
+        </div>
+    </div>
+
+    <!-- Online registration -->
+    <div class="container-fluid section-page" id="registrations">
+        <div class="row">
+            <div class="col-md-6 left-side d-flex justify-content-center flex-column">
+                <img src="img/pict3.png" alt="people-pict">                
+            </div>
+            <div class="col-md-6 right-side">
+                <h1 id="title">Online Registration</h1>
+                <form>
+                    <div class="form-group">
+                      <label for="input-name">Name</label>
+                      <input type="text" class="form-control" id="input-name" aria-describedby="emailHelp" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                      <label for="input-email">Email address</label>
+                      <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="input-date-of-birth">Date of birth</label>
+                      <input type="date" class="form-control" id="input-date-of-birth" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact and location -->
+    <div class="container-fluid section-page" id="contact">
+        <h1 id="title">Contact and Location</h1>
+        <div class="row">
+            <div class="col-md-6 left-side d-flex justify-content-center flex-column contact-left-side">
+                <div class="d-lg-flex justify-content-center flex-column">
+                    <div class="box-contact d-flex flex-column justify-content-center">
+                        <h5>Phone</h5>
+                        <p>(123) 456-789</p>
+                    </div>
+                    <div class="border"></div>
+                    <div class="box-contact d-flex flex-column justify-content-center">
+                        <h5>Email</h5>
+                        <p>example@email.com</p>
+                    </div>
+                    <div class="border"></div>
+                    <div class="box-contact d-flex justify-content-between align-items-center">
+                        <h5>Social</h5>
+                        <div class="p-4">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 right-side contact-right-side">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.253513510714!2d112.78928184709828!3d-7.28323872089615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb93836bab93%3A0x1b6f42b4690db14c!2sITS%20Surabaya!5e0!3m2!1sen!2sid!4v1697547444472!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
