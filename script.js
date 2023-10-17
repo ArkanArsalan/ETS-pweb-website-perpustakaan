@@ -9,7 +9,7 @@ const books = [
 
 const bookContainer = document.getElementById("bookContainer");
 
-// Function to create and append book elements
+// Create new element for book
 function createBookElement(book) {
     const bookDiv = document.createElement("div");
     bookDiv.classList.add("col-md-2", "book");
@@ -24,7 +24,7 @@ function createBookElement(book) {
     return bookDiv;
 }
 
-// Loop through the book data and create book elements
+// Loop through the book and append to the book container
 for (const book of books) {
     const bookElement = createBookElement(book);
     bookContainer.appendChild(bookElement);
