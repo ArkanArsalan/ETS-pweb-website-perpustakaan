@@ -24,7 +24,7 @@ function createBookElement(book) {
     return bookDiv;
 }
 
-// Loop through the book and append to the book container
+// Loop through the books and append to the book container
 for (const book of books) {
     const bookElement = createBookElement(book);
     bookContainer.appendChild(bookElement);
