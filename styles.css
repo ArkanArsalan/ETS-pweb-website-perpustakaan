@@ -17,6 +17,10 @@
     font-size: 50px;
 }
 
+#home #title, #home p{
+    color: white;
+}
+
 .right-side img {
     height: 400px;
 }
