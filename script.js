@@ -1,10 +1,10 @@
 const books = [
-    { title: "Atomic Habits", author: "Author 1", image: "./img/book1.jpg" },
-    { title: "A Brief History of Time", author: "Author 2", image: "./img/book2.jpg" },
-    { title: "Harry Potter: The Philosopher of Stone", author: "Author 3", image: "./img/book3.jpg" },
-    { title: "The Davinci Code", author: "Author 3", image: "./img/book4.jpg" },
-    { title: "Harry Potter: The Chamber of Secrets", author: "Author 3", image: "./img/book5.jpg" },
-    { title: "The Road", author: "Author 3", image: "./img/book6.jpg" }
+    { title: "Atomic Habits", author: "James Clear", image: "./img/book1.jpg" },
+    { title: "A Brief History of Time", author: "Stephen Hawking", image: "./img/book2.jpg" },
+    { title: "Harry Potter: The Philosopher of Stone", author: "J.K. Rowling", image: "./img/book3.jpg" },
+    { title: "The Davinci Code", author: "Dan Brown", image: "./img/book4.jpg" },
+    { title: "Harry Potter: The Chamber of Secrets", author: "J.K. Rowling", image: "./img/book5.jpg" },
+    { title: "The Road", author: "Cormac McCarthy", image: "./img/book6.jpg" }
 ];
 
 const bookContainer = document.getElementById("bookContainer");
